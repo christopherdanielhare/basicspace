@@ -1,0 +1,24 @@
+citHeader("To cite 'basicspace' in publications use:")
+
+bibentry(entry = "Article",
+  bibtype      = "article",
+  title        = "Recovering a Basic Space from Issue Scales in {R}",
+  author       = c(as.person("Royce Carroll"),
+                   as.person("Christopher Hare"),
+                   as.person("Jeffrey B. Lewis"),
+                   as.person("James Lo"),
+                   as.person("Keith T. Poole"),
+		   as.person("Howard Rosenthal")),
+  journal      = "Journal of Statistical Software",
+  year         = "2016",
+  volume       = "69",
+  number       = "7",
+  pages        = "1--21",
+  doi          = "10.18637/jss.v069.i07",
+  textVersion  =
+  paste("Keith Poole, Jeffrey Lewis, Howard Rosenthal, James Lo, Royce Carroll (2016).",
+        "Recovering a Basic Space from Issue Scales in R.",
+        "Journal of Statistical Software, 69(7), 1-21.",
+        "doi:10.18637/jss.v069.i07")
+)
+
